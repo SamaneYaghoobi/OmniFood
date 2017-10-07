@@ -1,5 +1,5 @@
 /* --------------------------------------
-    REUSABLE COMPONENT
+    BASIC SETUP
 -----------------------------------------*/
 
 * {
@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-body {
+html {
     font-family: 'Lato', 'arial', 'sans-serif';
     font-size: 20px;
     font-weight: 300;
@@ -16,14 +16,17 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-}
 
 a {
     text-decoration: none;
 }
+
+
+
+
+/* --------------------------------------
+    HEADER
+-----------------------------------------*/
 
 header {
     background-image: linear-gradient(rgba( 0, 0, 0, 0.70), rgba( 0, 0, 0, 0.70)), url(../img/hero.jpg);
@@ -41,6 +44,22 @@ header {
 }
 
 
+
+
+/* --------------------------------------
+    REUSABLE COMPONENT
+-----------------------------------------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+/*-----HEADINGS-----*/
+
 h1 {
     margin-bottom: 20px;
     font-weight: 300;
@@ -50,6 +69,11 @@ h1 {
     letter-spacing: 1px;
     color: #fff;
 }
+
+
+
+
+/*-----BUTTONS-----*/
 
 .btn:link,
 .btn:visited {
@@ -79,6 +103,10 @@ h1 {
     background-color: #bf6516;
     color: #fff;
 }
+
+
+
+/*-----NAV-----*/
 
 .logo {
     height: 100px;
