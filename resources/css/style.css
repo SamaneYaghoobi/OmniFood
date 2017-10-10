@@ -22,8 +22,6 @@ a {
 }
 
 
-
-
 /* --------------------------------------
     HEADER
 -----------------------------------------*/
@@ -44,8 +42,6 @@ header {
 }
 
 
-
-
 /* --------------------------------------
     REUSABLE COMPONENT
 -----------------------------------------*/
@@ -55,23 +51,80 @@ header {
     margin: 0 auto;
 }
 
+section {
+    padding: 80px 0;
+}
 
+.box {
+    padding: 1%;
+}
 
 
 /*-----HEADINGS-----*/
 
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 h1 {
     margin-bottom: 20px;
-    font-weight: 300;
     font-size: 240%;
-    text-transform: uppercase;
-    word-spacing: 4px;
     letter-spacing: 1px;
     color: #fff;
+    word-spacing: 4px;
+
+}
+
+h2 {
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    word-spacing: 2px;
+    text-align: center;
+    font-size: 180%;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    margin: 0 auto;
+    content: " ";
+    width: 100px;
+    margin-top: 30px;
+
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/*-----PARAGRAPHS-----*/
+
+.long-copy {
+    text-align: center;
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.box p {
+    line-height: 145%;
+    font-size: 90%;
 }
 
 
+/*-----ICONS-----*/
 
+.big-icon {
+    display: block;
+    color: #e67e22;
+    font-size: 350%;
+    margin-bottom: 15px;
+}
 
 /*-----BUTTONS-----*/
 
@@ -103,7 +156,6 @@ h1 {
     background-color: #bf6516;
     color: #fff;
 }
-
 
 
 /*-----NAV-----*/
