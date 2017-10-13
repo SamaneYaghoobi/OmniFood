@@ -192,3 +192,29 @@ h3 {
 .main-nav a:active {
     border-bottom: 2px solid #e67e22;
 }
+
+
+/* --------------------------------------
+     MEALS
+-----------------------------------------*/
+
+.meals-row {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-row li {
+    display: block;
+    width: 25%;
+    float: left;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    height: auto;
+    width: 100%;
+}
